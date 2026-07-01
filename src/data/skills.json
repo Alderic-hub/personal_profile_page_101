@@ -1,0 +1,20 @@
+{
+  "coreSystems": [
+    { "name": "HTML", "level": "Core Layout" },
+    { "name": "CSS", "level": "Visual Styling" },
+    { "name": "JavaScript", "level": "Interactive Engine" },
+    { "name": "Java", "level": "Object Architecture" },
+    { "name": "SQL", "level": "Data Persistence" }
+  ],
+  "supportingSystems": [
+    { "name": "PHP", "type": "Back-End Scripting" },
+    { "name": "Python", "type": "Automation & Scripts" },
+    { "name": "C / C++", "type": "Low-Level / Foundations" }
+  ],
+  "concepts": [
+    { "name": "Web Development", "desc": "Constructing robust, semantic responsive platforms." },
+    { "name": "UI/UX Design Thinking", "desc": "Designing high-contrast, distraction-free user flows." },
+    { "name": "Automation Logic", "desc": "Replacing human repetition with predictable scripts." },
+    { "name": "Algorithmic Thinking", "desc": "Deconstructing complex problems into discrete instructions." }
+  ]
+}
