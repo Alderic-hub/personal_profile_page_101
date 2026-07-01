@@ -1,0 +1,21 @@
+{
+  "name": "Abdeljelil",
+  "alias": "Aldric Realm",
+  "traits": ["Curious", "Driven", "Relentless"],
+  "tagline": "Building systems. Learning deeply. Becoming unavoidable.",
+  "subtitle": "Software Engineer • Builder • Learner",
+  "motto": "If it exists, it can be done. If it doesn’t, I’ll test it.",
+  "lifeTheme": "Becoming Unavoidable",
+  "currentMission": [
+    "Improve programming fundamentals",
+    "Build stronger projects",
+    "Learn system thinking",
+    "Maintain discipline in fitness and learning"
+  ],
+  "contact": {
+    "title": "Let’s Build Something That Matters.",
+    "github": "https://github.com/AldricRealm",
+    "email": "abdeljelilbehredin2@gmail.com",
+    "linkedin": "https://linkedin.com"
+  }
+}

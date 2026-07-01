@@ -1,0 +1,38 @@
+[
+  {
+    "chapter": "Chapter 01",
+    "title": "The First Spark",
+    "stage": "Web Development Basics",
+    "description": "Unlocking the power of plain-text rendering. Writing HTML tags, understanding CSS cascades, and seeing pages come alive. It was the moment I realized any interface can be modeled."
+  },
+  {
+    "chapter": "Chapter 02",
+    "title": "Sculpting Interface Space",
+    "stage": "UI Practice Projects",
+    "description": "Transitioning from static displays to living interfaces. Sculpting custom components, understanding responsive fluid grids, and exploring how micro-interactions guide user attention."
+  },
+  {
+    "chapter": "Chapter 03",
+    "title": "Engineering Structure",
+    "stage": "Structured Websites",
+    "description": "Structuring and deploying production-ready platforms. Integrating semantic code architectures, optimizing assets, and learning how high-performance styling ensures a smooth user experience."
+  },
+  {
+    "chapter": "Chapter 04",
+    "title": "Dynamic State Synthesis",
+    "stage": "Interactive Applications",
+    "description": "Diving into modern frontend architectures. Managing complex client-side state, building performant local storage integrations, and syncing layout transitions gracefully."
+  },
+  {
+    "chapter": "Chapter 05",
+    "title": "The Automation Paradigm",
+    "stage": "Automation Systems",
+    "description": "Abstracting human effort through systematic scripts. Standardizing repetitive inputs, constructing state logic, and creating utilities that transform complex data workflows automatically."
+  },
+  {
+    "chapter": "Chapter 06",
+    "title": "Architectural Foundations",
+    "stage": "Algorithmic Thinking",
+    "description": "Studying data structures, algorithm design, and resource efficiency. Approaching software development with disciplined, logical precision—setting the stage for systems that scale."
+  }
+]
