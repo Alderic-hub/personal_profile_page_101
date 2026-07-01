@@ -3,18 +3,25 @@ import { motion, AnimatePresence } from "motion/react";
 import { ChevronUp, ChevronDown, Compass, Landmark } from "lucide-react";
 import { JourneyChapter } from "../types";
 
+import introCinematicBg from "../assets/images/intro_cinematic_bg_1782540341409.jpg";
+import missionsCinematicBg from "../assets/images/missions_cinematic_bg_1782540356891.jpg";
+import missionSiltawi from "../assets/images/mission_siltawi_1782540461055.jpg";
+import loadoutCinematicBg from "../assets/images/loadout_cinematic_bg_1782540371617.jpg";
+import mindsetCinematicBg from "../assets/images/mindset_cinematic_bg_1782540384960.jpg";
+import classicChessMindset from "../assets/images/classic_chess_mindset_1782542288379.jpg";
+
 interface JourneySceneProps {
   journey: JourneyChapter[];
 }
 
 const getJourneyImage = (index: number) => {
   const images = [
-    "../assets/images/intro_cinematic_bg_1782540341409.jpg",
-    "../assets/images/missions_cinematic_bg_1782540356891.jpg",
-    "../assets/images/mission_siltawi_1782540461055.jpg",
-    "../assets/images/loadout_cinematic_bg_1782540371617.jpg",
-    "../assets/images/mindset_cinematic_bg_1782540384960.jpg",
-    "../assets/images/classic_chess_mindset_1782542288379.jpg"
+    introCinematicBg,
+    missionsCinematicBg,
+    missionSiltawi,
+    loadoutCinematicBg,
+    mindsetCinematicBg,
+    classicChessMindset
   ];
   return images[index % images.length];
 };
