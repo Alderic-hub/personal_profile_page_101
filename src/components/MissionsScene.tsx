@@ -20,15 +20,15 @@ const MISSION_SECTORS: Record<string, string[]> = {
 const getMissionImage = (id: string) => {
   switch (id) {
     case "mission-01":
-      return "/src/assets/images/classic_burger_menu_1782542784943.jpg";
+      return "../src/assets/images/classic_burger_menu_1782542784943.jpg";
     case "mission-02":
-      return "/src/assets/images/classic_quiz_wizard_1782542798252.jpg";
+      return "../src/assets/images/classic_quiz_wizard_1782542798252.jpg";
     case "mission-03":
-      return "/src/assets/images/classic_architect_desk_1782542810235.jpg";
+      return "../src/assets/images/classic_architect_desk_1782542810235.jpg";
     case "mission-04":
-      return "/src/assets/images/classic_library_bookmarks_1782542822769.jpg";
+      return "../src/assets/images/classic_library_bookmarks_1782542822769.jpg";
     default:
-      return "/src/assets/images/classic_library_missions_1782542271333.jpg";
+      return "../src/assets/images/classic_library_missions_1782542271333.jpg";
   }
 };
 

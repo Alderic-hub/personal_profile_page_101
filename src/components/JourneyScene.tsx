@@ -9,12 +9,12 @@ interface JourneySceneProps {
 
 const getJourneyImage = (index: number) => {
   const images = [
-    "/src/assets/images/intro_cinematic_bg_1782540341409.jpg",
-    "/src/assets/images/missions_cinematic_bg_1782540356891.jpg",
-    "/src/assets/images/mission_siltawi_1782540461055.jpg",
-    "/src/assets/images/loadout_cinematic_bg_1782540371617.jpg",
-    "/src/assets/images/mindset_cinematic_bg_1782540384960.jpg",
-    "/src/assets/images/classic_chess_mindset_1782542288379.jpg"
+    "../src/assets/images/intro_cinematic_bg_1782540341409.jpg",
+    "../src/assets/images/missions_cinematic_bg_1782540356891.jpg",
+    "../src/assets/images/mission_siltawi_1782540461055.jpg",
+    "../src/assets/images/loadout_cinematic_bg_1782540371617.jpg",
+    "../src/assets/images/mindset_cinematic_bg_1782540384960.jpg",
+    "../src/assets/images/classic_chess_mindset_1782542288379.jpg"
   ];
   return images[index % images.length];
 };

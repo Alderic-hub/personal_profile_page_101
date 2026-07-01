@@ -201,7 +201,7 @@ export default function IntroScene({ profile, onNavigate, activeView }: IntroSce
             {/* The absolute portrait render exactly like mockup image */}
             <div className="w-[280px] h-[370px] sm:w-[340px] sm:h-[450px] md:w-full md:max-w-[320px] md:h-[450px] lg:w-[360px] lg:h-[480px] rounded-3xl overflow-hidden border border-slate-100/80 shadow-2xl relative z-10 transition-transform duration-500 hover:scale-[1.02] bg-slate-200">
               <img
-                src="/src/assets/images/developer_portrait_1782548142914.jpg"
+                src="../src/assets/images/developer_portrait_1782548142914.jpg"
                 alt="Abdeljelil Studio portrait"
                 className="w-full h-full object-cover filter brightness-[1.02] contrast-[1.01]"
                 referrerPolicy="no-referrer"
