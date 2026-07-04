@@ -7,7 +7,7 @@ import classicLibraryMissions from "../assets/images/classic_library_missions_17
 import classicBurgerMenu from "../assets/images/classic_burger_menu_1782542784943.jpg";
 import classicQuizWizard from "../assets/images/classic_quiz_wizard_1782542798252.jpg";
 import classicArchitectDesk from "../assets/images/classic_architect_desk_1782542810235.jpg";
-import classicLibraryBookmarks from "../assets/images/regenerated_image_1783150776020.png";
+import classicLibraryBookmarks from "../assets/images/classic_library_missions_1782542271333.jpg";
 
 interface MissionsSceneProps {
   missions: Mission[];
