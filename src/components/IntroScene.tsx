@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { Mail, Github, Linkedin, ArrowRight, Sparkles, Terminal, Check, Instagram, Layers, Code, Brain } from "lucide-react";
 import { Profile } from "../types";
 import developerPortrait from "../assets/images/developer_portrait_1782548142914.jpg";
+import regeneratedImage1 from "../assets/images/regenerated_image_1783149603670.jpg";
+import regeneratedImage2 from "../assets/images/regenerated_image_1783149604303.jpg";
+import regeneratedImage3 from "../assets/images/regenerated_image_1783149606442.jpg";
 
 interface IntroSceneProps {
   profile: Profile;
@@ -23,9 +26,9 @@ export default function IntroScene({ profile, onNavigate, activeView }: IntroSce
   // Custom roles matching the floating cards on the right of the reference image
   const roles = [
     {
-      title: "Systems Architect",
+      title: "Frontend Development",
       desc: "Designing high-performance, scalable distributed systems & modular architectures.",
-      img: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=400&q=80",
+      img: regeneratedImage1,
       tag: "Core Engineering",
       icon: Layers,
       colorClasses: {
@@ -38,9 +41,9 @@ export default function IntroScene({ profile, onNavigate, activeView }: IntroSce
       }
     },
     {
-      title: "Software Engineer",
+      title: "Responsive Web Design",
       desc: "Crafting beautiful frontends and secure, robust backends in TypeScript & React.",
-      img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&q=80",
+      img: regeneratedImage2,
       tag: "Full-Stack Dev",
       icon: Code,
       colorClasses: {
@@ -53,9 +56,9 @@ export default function IntroScene({ profile, onNavigate, activeView }: IntroSce
       }
     },
     {
-      title: "DevOps Specialist",
+      title: "UI/UX Development",
       desc: "Streamlining deployment workflows, container orchestration, and automated pipelines.",
-      img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&q=80",
+      img: regeneratedImage3,
       tag: "Cloud & Infrastructure",
       icon: Terminal,
       colorClasses: {
@@ -94,10 +97,15 @@ export default function IntroScene({ profile, onNavigate, activeView }: IntroSce
               </div>
 
               {/* Massive Display Name ABDELJELIL with precise 3D letter styling like image */}
-              <h1 className="font-sans font-black text-5xl sm:text-6xl md:text-7xl lg:text-5xl xl:text-6xl text-slate-800 leading-none tracking-tight uppercase select-none drop-shadow-sm filter">
-                {profile.name}
-                <span className="text-slate-500">.</span>
-              </h1>
+              <div className="space-y-1">
+                <h1 className="font-sans font-black text-5xl sm:text-6xl md:text-7xl lg:text-5xl xl:text-6xl text-slate-800 leading-none tracking-tight uppercase select-none drop-shadow-sm filter">
+                  {profile.name}
+                  <span className="text-slate-500">.</span>
+                </h1>
+                <p className="font-sans text-sm font-medium text-slate-400 tracking-wide">
+                  (aka aldric realm)
+                </p>
+              </div>
 
               {/* Profile Subtitle / Persona Intro */}
               <p className="font-sans text-sm md:text-base lg:text-sm text-slate-600 leading-relaxed max-w-sm md:w-[450px] md:max-w-full lg:max-w-sm text-left">

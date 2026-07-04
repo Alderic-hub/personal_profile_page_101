@@ -5,8 +5,8 @@
     "title": "WOW Burger Digital Menu",
     "purpose": "Interactive digital food ordering UI system.",
     "technologies": ["React", "Tailwind CSS", "Motion"],
-    "learned": "Implementing fluid client-side states, dynamic cart calculations, and responsive multi-touch layouts.",
-    "impact": "Restructured tableside interactions, eliminating ordering friction and boosting item-discovery speed."
+    "learned": "Resolving component overcrowding while coordinating dynamic client-side states and layout stability across complex menu item matrices.",
+    "impact": "Engineered a high-end, minimalist dashboard architecture that eliminates layout shifts and ensures smooth, friction-free content interactions."
   },
   {
     "id": "mission-02",
@@ -14,8 +14,8 @@
     "title": "Automated Quiz Wizard",
     "purpose": "Logic-based quiz generation and automation system.",
     "technologies": ["TypeScript", "Node.js", "JSON Schema"],
-    "learned": "Designing a strict state-machine to produce dynamic questionnaires and branch answers cleanly.",
-    "impact": "Streamlined visual assessments, reducing time spent setting up logic trees from hours to seconds."
+    "learned": "Navigating DOM parsing pipelines and complex data extraction while actively structuring the core automation logic and background workers.",
+    "impact": "Currently in active development, successfully establishing the underlying engine architecture for zero-latency question processing."
   },
   {
     "id": "mission-03",
@@ -23,8 +23,8 @@
     "title": "Siltawi Website",
     "purpose": "Full structured web platform project.",
     "technologies": ["HTML5", "CSS3", "ES6 JavaScript"],
-    "learned": "Crafting clean semantics, aligning grid elements, and setting up solid search engine crawlers optimization.",
-    "impact": "Created an expansive, modern, and accessible interface establishing a robust online focal point."
+    "learned": "Architecting an optimized multi-page layout while managing global assets and localized content delivery efficiently.",
+    "impact": "Deployed a lightning-fast, highly responsive platform that improves user engagement and features zero visual clutter."
   },
   {
     "id": "mission-04",
@@ -32,7 +32,7 @@
     "title": "Bookmark System",
     "purpose": "Personal information and resource management tool.",
     "technologies": ["React", "LocalStorage", "Search Filters"],
-    "learned": "Creating performant localized storage schemas and configuring ultra-low latency filtering.",
-    "impact": "Consolidated loose resource notes and research bookmarks into a clean, searchable, and highly actionable digital memory vault."
+    "learned": "Synthesizing full-stack engineering requirements, optimizing relational schemas, and maintaining layout consistency under strict time constraints.",
+    "impact": "Successfully delivered a comprehensive, production-ready web application meeting all rigorous technical specification benchmarks."
   }
 ]

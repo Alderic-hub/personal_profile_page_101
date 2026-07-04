@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight, CheckCircle, Cpu, ArrowRight, X } from "lucide-react";
 import { Mission } from "../types";
 
+import classicLibraryMissions from "../assets/images/classic_library_missions_1782542271333.jpg";
 import classicBurgerMenu from "../assets/images/classic_burger_menu_1782542784943.jpg";
 import classicQuizWizard from "../assets/images/classic_quiz_wizard_1782542798252.jpg";
 import classicArchitectDesk from "../assets/images/classic_architect_desk_1782542810235.jpg";
 import classicLibraryBookmarks from "../assets/images/classic_library_bookmarks_1782542822769.jpg";
-import classicLibraryMissions from "../assets/images/classic_library_missions_1782542271333.jpg";
 
 interface MissionsSceneProps {
   missions: Mission[];

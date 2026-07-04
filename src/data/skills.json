@@ -3,10 +3,13 @@
     { "name": "HTML", "level": "Core Layout" },
     { "name": "CSS", "level": "Visual Styling" },
     { "name": "JavaScript", "level": "Interactive Engine" },
+    { "name": "TypeScript", "level": "Strict Type Safety" },
+    { "name": "React", "level": "Component Architecture" },
     { "name": "Java", "level": "Object Architecture" },
     { "name": "SQL", "level": "Data Persistence" }
   ],
   "supportingSystems": [
+    { "name": "Express", "type": "Server & API Layer" },
     { "name": "PHP", "type": "Back-End Scripting" },
     { "name": "Python", "type": "Automation & Scripts" },
     { "name": "C / C++", "type": "Low-Level / Foundations" }
