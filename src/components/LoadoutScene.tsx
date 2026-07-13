@@ -80,9 +80,10 @@ export default function LoadoutScene({ skills }: LoadoutSceneProps) {
             {marqueeItems.map((sys, idx) => {
               const logoUrl = getTechLogo(sys.name);
               return (
-                <div
+                <motion.div
                   key={`${sys.name}-${idx}`}
-                  className="group relative flex items-center justify-center p-5 bg-white border border-slate-200/60 rounded-2xl shadow-xs transition-all duration-300 hover:border-slate-950 hover:scale-105 cursor-pointer w-24 h-24 sm:w-28 sm:h-28 overflow-hidden shrink-0"
+                  whileHover={{ scale: 1.05, borderColor: "rgb(203, 213, 225)", boxShadow: "0 15px 35px -5px rgba(15, 23, 42, 0.08)" }}
+                  className="group relative flex items-center justify-center p-5 bg-white border border-slate-200/60 rounded-2xl shadow-[0_4px_12px_rgba(15,23,42,0.03)] cursor-pointer w-24 h-24 sm:w-28 sm:h-28 overflow-hidden shrink-0 transition-colors"
                 >
                   {/* Logo (Normally shown) */}
                   {logoUrl ? (
@@ -102,7 +103,7 @@ export default function LoadoutScene({ skills }: LoadoutSceneProps) {
                       {sys.name}
                     </span>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>
@@ -126,7 +127,12 @@ export default function LoadoutScene({ skills }: LoadoutSceneProps) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: idx * 0.1 }}
-                  className="py-8 px-6 bg-white border border-slate-200/50 rounded-3xl shadow-xs hover:shadow-md transition-shadow flex flex-col items-center text-center space-y-4"
+                  whileHover={{
+                    y: -5,
+                    borderColor: "rgb(203, 213, 225)",
+                    boxShadow: "0 20px 45px -12px rgba(15, 23, 42, 0.08)"
+                  }}
+                  className="py-8 px-6 bg-white border border-slate-200/50 rounded-3xl shadow-xs transition-colors flex flex-col items-center text-center space-y-4 cursor-pointer"
                 >
                   <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-200 text-slate-950 shadow-xs">
                     <IconComponent size={20} />

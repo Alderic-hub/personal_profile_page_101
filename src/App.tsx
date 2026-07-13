@@ -6,13 +6,15 @@ import { Menu, X } from "lucide-react";
 import profileData from "./data/profile.json";
 import missionsData from "./data/missions.json";
 import skillsData from "./data/skills.json";
+import journeyData from "./data/journey.json";
 
 // Import types
-import { Profile, Project, Skills } from "./types";
+import { Profile, Project, Skills, JourneyChapter } from "./types";
 
 // Import components
 import IntroScene from "./components/IntroScene";
 import ProjectsScene from "./components/ProjectsScene";
+import JourneyScene from "./components/JourneyScene";
 import LoadoutScene from "./components/LoadoutScene";
 import ContactScene from "./components/ContactScene";
 
@@ -20,6 +22,7 @@ export default function App() {
   const profile = profileData as Profile;
   const missions = missionsData as unknown as Project[];
   const skills = skillsData as Skills;
+  const journey = journeyData as JourneyChapter[];
 
   const [activeSection, setActiveSection] = useState("hero");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,7 +39,7 @@ export default function App() {
 
   // Track active section on scroll using IntersectionObserver
   useEffect(() => {
-    const sections = ["hero", "missions", "loadout", "contact"];
+    const sections = ["hero", "missions", "loadout", "journey", "contact"];
     
     const observerOptions = {
       root: null,
@@ -112,6 +115,7 @@ export default function App() {
               { id: "hero", label: "Introduction" },
               { id: "missions", label: "Projects" },
               { id: "loadout", label: "Loadout" },
+              { id: "journey", label: "Journey" },
               { id: "contact", label: "Contact" }
             ].map((tab) => {
               const isActive = activeSection === tab.id;
@@ -182,6 +186,7 @@ export default function App() {
                 { id: "hero", label: "Introduction" },
                 { id: "missions", label: "Projects" },
                 { id: "loadout", label: "Skills Loadout" },
+                { id: "journey", label: "Journey" },
                 { id: "contact", label: "Contact" }
               ].map((tab) => {
                 const isActive = activeSection === tab.id;
@@ -220,6 +225,12 @@ export default function App() {
 
         <section id="loadout" className="scroll-mt-16 bg-[#FAF9F5]">
           <LoadoutScene skills={skills} />
+        </section>
+
+        <section id="journey" className="scroll-mt-16 bg-[#111827]">
+          <JourneyScene 
+            journey={journey} 
+          />
         </section>
 
         <section id="contact" className="scroll-mt-16 bg-slate-50">

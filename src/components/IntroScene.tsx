@@ -26,7 +26,11 @@ export default function IntroScene({ profile, onNavigate }: IntroSceneProps) {
       className="w-full bg-cover bg-center select-none relative min-h-[92vh] flex flex-col justify-center items-center px-4 sm:px-12 lg:px-16 py-16 md:py-24 max-w-7xl mx-auto overflow-hidden"
     >
       {/* Background Soft Shadow/Gradient Layer to ensure consistent elegant look and readability */}
-      <div className="absolute inset-0 bg-slate-950/60 z-0 pointer-events-none" />
+      <div className="absolute inset-0 bg-slate-950/65 z-0 pointer-events-none" />
+
+      {/* Elegant Atmospheric Backlights matching the hero image */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[350px] rounded-full bg-slate-500/20 blur-[130px] z-0 pointer-events-none" />
+      <div className="absolute top-1/3 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-amber-500/15 blur-[100px] z-0 pointer-events-none" />
 
       {/* Text sits directly on top of the image */}
       <motion.div 

@@ -21,8 +21,6 @@ export default function ContactScene({ contact }: ContactSceneProps) {
 
   return (
     <div className="w-full bg-slate-50 text-slate-800 py-16 sm:py-24 px-4 sm:px-12 lg:px-16 flex flex-col justify-center select-none overflow-hidden max-w-7xl mx-auto">
-      {/* Decorative clean ambient dots */}
-      <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none opacity-40 z-0" />
 
       <div className="max-w-4xl mx-auto w-full relative z-10 space-y-12">
         
