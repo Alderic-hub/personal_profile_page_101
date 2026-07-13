@@ -15,7 +15,7 @@ export interface Profile {
   };
 }
 
-export interface Mission {
+export interface Project {
   id: string;
   number: string;
   title: string;

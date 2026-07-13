@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", Georgia, serif;
-  --font-sans: "Inter", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
-  --font-editorial: "Playfair Display", serif;
+  --font-serif: "Roboto Slab", Georgia, serif;
+  --font-sans: "Roboto", system-ui, sans-serif;
+  --font-mono: monospace;
+  --font-editorial: "Roboto Slab", serif;
+  --font-space: "Roboto Condensed", system-ui, sans-serif;
   
   --color-cinematic-black: #F8FAFC;
   --color-cinematic-navy: #F1F5F9;
@@ -43,6 +44,25 @@
   }
 }
 
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
 /* Elegant scroll styling for warm theme */
 ::-webkit-scrollbar {
   width: 6px;
@@ -62,7 +82,7 @@
 body {
   background-color: #E2E8F0;
   color: #111827;
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: "Roboto", system-ui, sans-serif;
   overflow-x: hidden;
 }
 
